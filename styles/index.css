@@ -35,6 +35,8 @@ body{
     font-size: 2rem;
     padding: 0 10px;
     align-items: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 .keyboard{
     width: 100%;
@@ -62,12 +64,14 @@ body{
 }
 .keyboard-button:hover{
     background-color: rgb(22, 22, 22);
+    border: solid 1px #fff;
 }
 .credits{
     color: #fff;
     text-decoration: none;
     text-align: center;
     transition: .5s;
+    cursor: pointer;
 }
 .credits:hover{
     color: rgb(35, 35, 255);
